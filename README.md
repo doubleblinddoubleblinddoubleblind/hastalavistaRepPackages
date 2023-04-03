@@ -28,4 +28,6 @@ python run_rq3_combinedWeight.py
 # Run RQ3 part 3 (changing depth of ASTTrans Representation): Get the MRR in "results/combinedCS_depth_*/summary.txt"
 python run_rq3_depth.py
 ```
-We show the content of confirmation from authors of SOTA approaches on the validity of our accuracy on CAT benchmark in the same location in Download part.
+
+## Confirmation from SOTA authors
+We have two questions to SOTA authors about the validity of our implementation of code search by SOTA embedding models and the reasonable of the accuracy on the CAT benchmark dataset. The confirmation that our implementation is valid and the obtained results are reasonable can be seen in the "QuestionsAndAnswersFromSOTAAuthors.pdf" in the Download location. We hide all information about the senders and the time of conversation due to the anonymous authors policy.

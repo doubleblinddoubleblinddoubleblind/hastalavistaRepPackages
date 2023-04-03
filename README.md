@@ -30,4 +30,4 @@ python run_rq3_depth.py
 ```
 
 ## Confirmation from SOTA authors
-We have two questions to SOTA authors about the validity of our implementation of code search by SOTA embedding models and the reasonable of the accuracy on the CAT benchmark dataset. The confirmation that our implementation is valid and the obtained results are reasonable can be seen in the "QuestionsAndAnswersFromSOTAAuthors.pdf" in the Download location. We hide all information about the senders and the time of conversation due to the anonymous authors policy.
+We have two questions to SOTA authors about the validity of our implementation of code search by SOTA embedding models and the reasonable of the accuracy on the CAT benchmark's datasets. The confirmation that our implementation is valid and the obtained results are reasonable can be seen in the "QuestionsAndAnswersFromSOTAAuthors.pdf" in the Download location. We hide all information about the senders and the time of conversation due to the anonymous authors policy.

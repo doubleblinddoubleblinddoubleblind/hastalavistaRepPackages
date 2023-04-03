@@ -1,9 +1,9 @@
 # ASTTrans
 
-##Prerequisites
+## Prerequisites
 Libraries: meteor, crystalbleu (can download from https://github.com/sola-st/crystalbleu)
 
-##Download
+## Download
 Download and extract the ASTTrans_RepPackages.zip from this following location: https://tinyurl.com/r5j8x5jc
 In this folder, we have the "data" folder which stored information about translated/expected results of Query-To-ASTTrans Representation, Query-to-CodeTokens translation models, original vectors (by GraphCodeBERT and UniXcoder) and augmented vectors (by ASTTrans) over four datasets TLCodeSum, CodeSearchNet, Funcom and PCSD of CAT benchmark. The "result_backup" folder stored the results we used in the paper. When youu run the reproducing code below, experiments' results will be shown in the "results" folder.
 

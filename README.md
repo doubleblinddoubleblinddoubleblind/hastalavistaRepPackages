@@ -1,7 +1,7 @@
 # ASTTrans
 
 ## Prerequisites
-Libraries: meteor, crystalbleu (can download from https://github.com/sola-st/crystalbleu)
+Libraries: python 3.7 and above, meteor, crystalbleu (can download from https://github.com/sola-st/crystalbleu)
 
 ## Download
 Download and extract the ASTTrans_RepPackages.zip from this following location: https://tinyurl.com/r5j8x5jc

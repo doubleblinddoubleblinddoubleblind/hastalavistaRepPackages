@@ -7,6 +7,7 @@ Libraries: python 3.7 and above, meteor, crystalbleu (can download from https://
 Download and extract the ASTTrans_RepPackages.zip from this following location: https://tinyurl.com/r5j8x5jc
 In this folder, we have the "data" folder which stored information about translated/expected results of Query-To-ASTTrans Representation, Query-to-CodeTokens translation models, original vectors (by GraphCodeBERT and UniXcoder) and augmented vectors (by ASTTrans) over four datasets TLCodeSum, CodeSearchNet, Funcom and PCSD of CAT benchmark. The "result_backup" folder stored the results we used in the paper. When youu run the reproducing code below, experiments' results will be shown in the "results" folder.
 
+
 ## Reproducing Paper Results
 Change the default value fopRepPackage to your local location of "ASTTrans_RepPackages" folder. Then do following steps:
 ```bash
@@ -28,6 +29,8 @@ python run_rq3_combinedWeight.py
 # Run RQ3 part 3 (changing depth of ASTTrans Representation): Get the MRR in "results/combinedCS_depth_*/summary.txt"
 python run_rq3_depth.py
 ```
+## Case Study
+We manually checked 52 cases of RQ2 to see when ASTTrans improve/ cannot improve SOTA code search models. We store them in "caseStudy/" folder.
 
-## Confirmation from SOTA authors
+## Confirmation from SOTA approaches' authors
 We have two questions to SOTA authors about the validity of our implementation of code search by SOTA embedding models and the reasonable of the accuracy on the CAT benchmark's datasets. The confirmation that our implementation is valid and the obtained results are reasonable can be seen in the "QuestionsAndAnswersFromSOTAAuthors.pdf" in the above location (https://tinyurl.com/r5j8x5jc ). We hide all information about the senders and the time of conversation due to the anonymous authors policy.

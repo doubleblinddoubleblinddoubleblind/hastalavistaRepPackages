@@ -9,7 +9,7 @@ In this folder, we have the "data" folder which stored information about transla
 
 
 ## Reproducing Paper Results
-Change the default value fopRepPackage to your local location of "ASTTrans_RepPackages" folder. Then do following steps:
+Change the default value of "fopRepPackage" variable in "src/paths.py" to your local location of "ASTTrans_RepPackages" folder. Then do following steps:
 ```bash
 # Run RQ1: results are shown in "results/rq1" folder. See "summary.txt" to see results of Table 2.
 python run_rq1.py
@@ -30,7 +30,7 @@ python run_rq3_combinedWeight.py
 python run_rq3_depth.py
 ```
 ## Case Study
-We manually checked 52 cases of RQ2 to see when ASTTrans improve/ cannot improve SOTA code search models. We store them in "caseStudy/" folder.
+We manually checked 52 cases of RQ2 to see when ASTTrans improve/ cannot improve SOTA code search models. We store them in "caseStudy/" folder. In total, there are #20 cases ASTTrans improved SOTA approaches, 32 cases it didn't (#20 cases are due to NMT's low quality translation and #12 cases are due to the repetitive of tokens in ASTTrans Representation)
 
 ## Confirmation from SOTA approaches' authors
 We have two questions to SOTA authors about the validity of our implementation of code search by SOTA embedding models and the reasonable of the accuracy on the CAT benchmark's datasets. The confirmation that our implementation is valid and the obtained results are reasonable can be seen in the "QuestionsAndAnswersFromSOTAAuthors.pdf" in the above location (https://tinyurl.com/r5j8x5jc ). We hide all information about the senders and the time of conversation due to the anonymous authors policy.
